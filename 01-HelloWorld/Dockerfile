@@ -8,5 +8,6 @@ WORKDIR /app
 COPY . .
 # Compile the source code and generate hello binary executable file
 RUN gcc -o hello helloworld.c
+
 # at last run the program
-CMD ["/app/hello"] 
+CMD ["hello"] 

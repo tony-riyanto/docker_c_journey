@@ -1,0 +1,11 @@
+services:
+  helloworld:
+    image: "helloc:v2"
+    container_name: helloc
+    volumes:
+      - type: bind
+        source: ./output-bin
+        target: /target-bin
+    command: sh -c "cp /app/hello /target-bin"
+volumes:
+  myapp3:
