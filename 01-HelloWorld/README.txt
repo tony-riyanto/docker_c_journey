@@ -1,0 +1,4 @@
+https://stackoverflow.com/questions/58129302/how-to-pack-and-ship-a-simple-c-application-in-docker-without-the-gcc-compiler
+
+docker build . -t helloc
+
