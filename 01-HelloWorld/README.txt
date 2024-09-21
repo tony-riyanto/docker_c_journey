@@ -1,5 +1,6 @@
 https://stackoverflow.com/questions/58129302/how-to-pack-and-ship-a-simple-c-application-in-docker-without-the-gcc-compiler
 
+# Build it
 docker build . -t helloc
 
 Lessons learnt :
@@ -11,3 +12,7 @@ Lessons learnt :
 
 3) Use bind mount syntax (see docker-compose) to define ad hoc folder below the current folder
 
+
+# Test it
+C:\_learn\docker_c_journey\01-HelloWorld>docker run helloc
+Hello World!
